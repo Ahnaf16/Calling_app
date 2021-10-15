@@ -3,6 +3,7 @@
 import 'package:flutter/material.dart';
 
 import 'callpage.dart';
+import 'contacts.dart';
 import 'message.dart';
 
 class Navbars extends StatefulWidget {
@@ -17,12 +18,19 @@ class _NavbarsState extends State<Navbars> {
 
   final page = [
     Caller(),
+    Contactlist(),
     Message(),
   ];
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {},
+        backgroundColor: Colors.green[400],
+        foregroundColor: Colors.black,
+        child: Icon(Icons.dialpad),
+      ),
       body: page[_currentindex],
       bottomNavigationBar: BottomNavigationBar(
         backgroundColor: Colors.grey[900],
@@ -34,7 +42,8 @@ class _NavbarsState extends State<Navbars> {
             icon: Icon(Icons.call),
             label: 'Calls',
           ),
-          BottomNavigationBarItem(icon: Icon(Icons.message), label: 'Message')
+          BottomNavigationBarItem(icon: Icon(Icons.people), label: 'Contacts'),
+          BottomNavigationBarItem(icon: Icon(Icons.message), label: 'Message'),
         ],
         currentIndex: _currentindex,
         onTap: (index) {

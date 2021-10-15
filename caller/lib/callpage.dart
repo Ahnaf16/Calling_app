@@ -15,17 +15,25 @@ class Caller extends StatelessWidget {
           backgroundColor: Colors.grey[900],
           leading: const Icon(
             Icons.call,
-            size: 30,
+            size: 25,
           ),
           actions: [
             IconButton(
               icon: Icon(
-                Icons.more_vert_rounded,
+                Icons.search,
                 color: Colors.white,
-                size: 30,
+                size: 25,
               ),
               onPressed: () {},
-            )
+            ),
+            IconButton(
+              icon: Icon(
+                Icons.more_vert_rounded,
+                color: Colors.white,
+                size: 25,
+              ),
+              onPressed: () {},
+            ),
           ],
         ),
         body: ListView(
@@ -129,7 +137,7 @@ var names = [
   'Ahnaf',
   'Jakir',
   'Mehedi',
-  'Al Rahim',
+  'Rahim',
   'Zaynab',
   'Rasel',
   'Amir',
