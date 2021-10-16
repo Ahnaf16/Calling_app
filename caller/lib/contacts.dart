@@ -62,7 +62,7 @@ class Contactlist extends StatelessWidget {
                   children: [
                     Expanded(
                       child: Padding(
-                        padding: const EdgeInsets.only(left: 50),
+                        padding: const EdgeInsets.only(left: 30),
                         child: ListTile(
                           onTap: () {},
                           leading: Icon(
@@ -72,10 +72,13 @@ class Contactlist extends StatelessWidget {
                                 [_random.nextInt(9) * 100],
                             size: 40,
                           ),
-                          title: Text(
-                            (names[index]),
-                            style: TextStyle(
-                                color: Colors.grey[100], fontSize: 22),
+                          title: Padding(
+                            padding: const EdgeInsets.only(left: 20),
+                            child: Text(
+                              (names[index]),
+                              style: TextStyle(
+                                  color: Colors.grey[100], fontSize: 22),
+                            ),
                           ),
                         ),
                       ),

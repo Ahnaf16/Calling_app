@@ -1,5 +1,6 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
 
+import 'package:caller/dialer.dart';
 import 'package:flutter/material.dart';
 
 import 'callpage.dart';
@@ -26,7 +27,12 @@ class _NavbarsState extends State<Navbars> {
   Widget build(BuildContext context) {
     return Scaffold(
       floatingActionButton: FloatingActionButton(
-        onPressed: () {},
+        onPressed: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => Dialer()),
+          );
+        },
         backgroundColor: Colors.green[400],
         foregroundColor: Colors.black,
         child: Icon(Icons.dialpad),

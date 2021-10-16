@@ -60,7 +60,7 @@ class Message extends StatelessWidget {
           ),
           trailing: Icon(
             Icons.fiber_manual_record,
-            color: Colors.blue,
+            color: Colors.green,
             size: 15,
           ),
           title: Text(
@@ -72,7 +72,7 @@ class Message extends StatelessWidget {
           subtitle: Text(
             'We have Flutter class, you are going to miss it?',
             style: TextStyle(
-              color: Colors.lightBlue,
+              color: Colors.green[400],
             ),
           ),
         ),
@@ -111,7 +111,7 @@ class Message extends StatelessWidget {
           ),
           trailing: Icon(
             Icons.fiber_manual_record,
-            color: Colors.blue,
+            color: Colors.green,
             size: 15,
           ),
           title: Text(
@@ -123,7 +123,7 @@ class Message extends StatelessWidget {
           subtitle: Text(
             '5gb data for 7 days only 68 taka!',
             style: TextStyle(
-              color: Colors.lightBlue,
+              color: Colors.green[400],
             ),
           ),
         ),
@@ -162,7 +162,7 @@ class Message extends StatelessWidget {
           ),
           trailing: Icon(
             Icons.fiber_manual_record,
-            color: Colors.blue,
+            color: Colors.green,
             size: 15,
           ),
           title: Text(
@@ -174,7 +174,7 @@ class Message extends StatelessWidget {
           subtitle: Text(
             'Buy 1 Get 1 offer!! Order now.',
             style: TextStyle(
-              color: Colors.lightBlue,
+              color: Colors.green[400],
             ),
           ),
         ),
@@ -236,7 +236,7 @@ class Message extends StatelessWidget {
           ),
           trailing: Icon(
             Icons.fiber_manual_record,
-            color: Colors.blue,
+            color: Colors.green,
             size: 15,
           ),
           title: Text(
@@ -248,7 +248,7 @@ class Message extends StatelessWidget {
           subtitle: Text(
             'Account refilled taka 99. ID:0999898566',
             style: TextStyle(
-              color: Colors.lightBlue,
+              color: Colors.green[400],
             ),
           ),
         ),
@@ -264,7 +264,7 @@ class Message extends StatelessWidget {
           ),
           trailing: Icon(
             Icons.fiber_manual_record,
-            color: Colors.blue,
+            color: Colors.green,
             size: 15,
           ),
           title: Text(
@@ -276,7 +276,7 @@ class Message extends StatelessWidget {
           subtitle: Text(
             'You received 200 taka from 01700000000',
             style: TextStyle(
-              color: Colors.lightBlue,
+              color: Colors.green[400],
             ),
           ),
         ),
@@ -292,7 +292,7 @@ class Message extends StatelessWidget {
           ),
           trailing: Icon(
             Icons.fiber_manual_record,
-            color: Colors.blue,
+            color: Colors.green,
             size: 15,
           ),
           title: Text(
@@ -304,7 +304,7 @@ class Message extends StatelessWidget {
           subtitle: Text(
             'To get news about Covid-19 go to ...',
             style: TextStyle(
-              color: Colors.lightBlue,
+              color: Colors.green[400],
             ),
           ),
         ),
@@ -320,7 +320,7 @@ class Message extends StatelessWidget {
           ),
           trailing: Icon(
             Icons.fiber_manual_record,
-            color: Colors.blue,
+            color: Colors.green,
             size: 15,
           ),
           title: Text(
@@ -332,7 +332,7 @@ class Message extends StatelessWidget {
           subtitle: Text(
             'To resate your Bkash pin call 278 or contact customer center.',
             style: TextStyle(
-              color: Colors.lightBlue,
+              color: Colors.green[400],
             ),
           ),
         ),
@@ -348,7 +348,7 @@ class Message extends StatelessWidget {
           ),
           trailing: Icon(
             Icons.fiber_manual_record,
-            color: Colors.blue,
+            color: Colors.green,
             size: 15,
           ),
           title: Text(
@@ -360,7 +360,7 @@ class Message extends StatelessWidget {
           subtitle: Text(
             'Use 637475 for your activetion code',
             style: TextStyle(
-              color: Colors.lightBlue,
+              color: Colors.green[400],
             ),
           ),
         ),
@@ -376,7 +376,7 @@ class Message extends StatelessWidget {
           ),
           trailing: Icon(
             Icons.fiber_manual_record,
-            color: Colors.blue,
+            color: Colors.green,
             size: 15,
           ),
           title: Text(
@@ -388,7 +388,7 @@ class Message extends StatelessWidget {
           subtitle: Text(
             'Active Misscall Alart at 13 taka/month. Call 255364.',
             style: TextStyle(
-              color: Colors.lightBlue,
+              color: Colors.green[400],
             ),
           ),
         ),
@@ -404,7 +404,7 @@ class Message extends StatelessWidget {
           ),
           trailing: Icon(
             Icons.fiber_manual_record,
-            color: Colors.blue,
+            color: Colors.green,
             size: 15,
           ),
           title: Text(
@@ -416,7 +416,7 @@ class Message extends StatelessWidget {
           subtitle: Text(
             'Dear Customer, your request 664788394 has be...',
             style: TextStyle(
-              color: Colors.lightBlue,
+              color: Colors.green[400],
             ),
           ),
         ),
