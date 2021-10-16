@@ -129,71 +129,52 @@ class _DialerState extends State<Dialer> {
                       height: 80,
                       width: 80,
                       child: Center(
-                          child: TextButton(
-                              style: TextButton.styleFrom(
-                                  shape: RoundedRectangleBorder(
-                                      borderRadius: BorderRadius.circular(20))),
-                              onPressed: () {},
-                              child: Text(
-                                '1',
-                                style: TextStyle(
-                                    color: Colors.green[400], fontSize: 50),
-                              ))),
+                        child: TextButton(
+                          style: TextButton.styleFrom(
+                              shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(20))),
+                          onPressed: () {},
+                          child: Text(
+                            '1',
+                            style: TextStyle(
+                                color: Colors.green[400], fontSize: 50),
+                          ),
+                        ),
+                      ),
                     ),
                     SizedBox(
                       height: 80,
                       width: 80,
                       child: Center(
+                        child: TextButton(
+                          style: TextButton.styleFrom(
+                              shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(20))),
+                          onPressed: () {},
                           child: Text(
-                        '2',
-                        style:
-                            TextStyle(color: Colors.green[400], fontSize: 50),
-                      )),
+                            '2',
+                            style: TextStyle(
+                                color: Colors.green[400], fontSize: 50),
+                          ),
+                        ),
+                      ),
                     ),
                     SizedBox(
                       height: 80,
                       width: 80,
                       child: Center(
+                        child: TextButton(
+                          style: TextButton.styleFrom(
+                              shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(20))),
+                          onPressed: () {},
                           child: Text(
-                        '3',
-                        style:
-                            TextStyle(color: Colors.green[400], fontSize: 50),
-                      )),
-                    ),
-                  ],
-                ),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: [
-                    SizedBox(
-                      height: 80,
-                      width: 80,
-                      child: Center(
-                          child: Text(
-                        '4',
-                        style:
-                            TextStyle(color: Colors.green[400], fontSize: 50),
-                      )),
-                    ),
-                    SizedBox(
-                      height: 80,
-                      width: 80,
-                      child: Center(
-                          child: Text(
-                        '5',
-                        style:
-                            TextStyle(color: Colors.green[400], fontSize: 50),
-                      )),
-                    ),
-                    SizedBox(
-                      height: 80,
-                      width: 80,
-                      child: Center(
-                          child: Text(
-                        '6',
-                        style:
-                            TextStyle(color: Colors.green[400], fontSize: 50),
-                      )),
+                            '3',
+                            style: TextStyle(
+                                color: Colors.green[400], fontSize: 50),
+                          ),
+                        ),
+                      ),
                     ),
                   ],
                 ),
@@ -204,31 +185,52 @@ class _DialerState extends State<Dialer> {
                       height: 80,
                       width: 80,
                       child: Center(
+                        child: TextButton(
+                          style: TextButton.styleFrom(
+                              shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(20))),
+                          onPressed: () {},
                           child: Text(
-                        '7',
-                        style:
-                            TextStyle(color: Colors.green[400], fontSize: 50),
-                      )),
+                            '4',
+                            style: TextStyle(
+                                color: Colors.green[400], fontSize: 50),
+                          ),
+                        ),
+                      ),
                     ),
                     SizedBox(
                       height: 80,
                       width: 80,
                       child: Center(
+                        child: TextButton(
+                          style: TextButton.styleFrom(
+                              shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(20))),
+                          onPressed: () {},
                           child: Text(
-                        '8',
-                        style:
-                            TextStyle(color: Colors.green[400], fontSize: 50),
-                      )),
+                            '5',
+                            style: TextStyle(
+                                color: Colors.green[400], fontSize: 50),
+                          ),
+                        ),
+                      ),
                     ),
                     SizedBox(
                       height: 80,
                       width: 80,
                       child: Center(
+                        child: TextButton(
+                          style: TextButton.styleFrom(
+                              shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(20))),
+                          onPressed: () {},
                           child: Text(
-                        '9',
-                        style:
-                            TextStyle(color: Colors.green[400], fontSize: 50),
-                      )),
+                            '6',
+                            style: TextStyle(
+                                color: Colors.green[400], fontSize: 50),
+                          ),
+                        ),
+                      ),
                     ),
                   ],
                 ),
@@ -239,31 +241,108 @@ class _DialerState extends State<Dialer> {
                       height: 80,
                       width: 80,
                       child: Center(
+                        child: TextButton(
+                          style: TextButton.styleFrom(
+                              shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(20))),
+                          onPressed: () {},
                           child: Text(
-                        '*',
-                        style:
-                            TextStyle(color: Colors.green[400], fontSize: 50),
-                      )),
+                            '7',
+                            style: TextStyle(
+                                color: Colors.green[400], fontSize: 50),
+                          ),
+                        ),
+                      ),
                     ),
                     SizedBox(
                       height: 80,
                       width: 80,
                       child: Center(
+                        child: TextButton(
+                          style: TextButton.styleFrom(
+                              shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(20))),
+                          onPressed: () {},
                           child: Text(
-                        '0',
-                        style:
-                            TextStyle(color: Colors.green[400], fontSize: 50),
-                      )),
+                            '8',
+                            style: TextStyle(
+                                color: Colors.green[400], fontSize: 50),
+                          ),
+                        ),
+                      ),
                     ),
                     SizedBox(
                       height: 80,
                       width: 80,
                       child: Center(
+                        child: TextButton(
+                          style: TextButton.styleFrom(
+                              shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(20))),
+                          onPressed: () {},
                           child: Text(
-                        '#',
-                        style:
-                            TextStyle(color: Colors.green[400], fontSize: 50),
-                      )),
+                            '9',
+                            style: TextStyle(
+                                color: Colors.green[400], fontSize: 50),
+                          ),
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: [
+                    SizedBox(
+                      height: 80,
+                      width: 80,
+                      child: Center(
+                        child: TextButton(
+                          style: TextButton.styleFrom(
+                              shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(20))),
+                          onPressed: () {},
+                          child: Text(
+                            '*',
+                            style: TextStyle(
+                                color: Colors.green[400], fontSize: 50),
+                          ),
+                        ),
+                      ),
+                    ),
+                    SizedBox(
+                      height: 80,
+                      width: 80,
+                      child: Center(
+                        child: TextButton(
+                          style: TextButton.styleFrom(
+                              shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(20))),
+                          onPressed: () {},
+                          child: Text(
+                            '0',
+                            style: TextStyle(
+                                color: Colors.green[400], fontSize: 50),
+                          ),
+                        ),
+                      ),
+                    ),
+                    SizedBox(
+                      height: 80,
+                      width: 80,
+                      child: Center(
+                        child: TextButton(
+                          style: TextButton.styleFrom(
+                              shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(20))),
+                          onPressed: () {},
+                          child: Text(
+                            '#',
+                            style: TextStyle(
+                                color: Colors.green[400], fontSize: 50),
+                          ),
+                        ),
+                      ),
                     ),
                   ],
                 ),

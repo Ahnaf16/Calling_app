@@ -14,25 +14,34 @@ class Message extends StatelessWidget {
         backgroundColor: Colors.grey[900],
         leading: const Icon(
           Icons.message,
-          size: 30,
+          size: 25,
         ),
         actions: [
           IconButton(
             icon: Icon(
-              Icons.more_vert_rounded,
+              Icons.search,
               color: Colors.white,
-              size: 30,
+              size: 25,
             ),
             onPressed: () {},
-          )
+          ),
+          IconButton(
+            icon: Icon(
+              Icons.more_vert_rounded,
+              color: Colors.white,
+              size: 25,
+            ),
+            onPressed: () {},
+          ),
         ],
       ),
       body: ListView(children: [
         ListTile(
+          onTap: () {},
           tileColor: Colors.grey[900],
           leading: Icon(
             Icons.account_circle,
-            color: Colors.white,
+            color: Colors.greenAccent,
             size: 40,
           ),
           title: Text(
@@ -52,10 +61,11 @@ class Message extends StatelessWidget {
           color: Colors.grey,
         ),
         ListTile(
+          onTap: () {},
           tileColor: Colors.grey[900],
           leading: Icon(
             Icons.account_circle,
-            color: Colors.white,
+            color: Colors.blueAccent,
             size: 40,
           ),
           trailing: Icon(
@@ -80,10 +90,11 @@ class Message extends StatelessWidget {
           color: Colors.grey,
         ),
         ListTile(
+          onTap: () {},
           tileColor: Colors.grey[900],
           leading: Icon(
             Icons.account_circle,
-            color: Colors.white,
+            color: Colors.orangeAccent,
             size: 40,
           ),
           title: Text(
@@ -103,10 +114,11 @@ class Message extends StatelessWidget {
           color: Colors.grey,
         ),
         ListTile(
+          onTap: () {},
           tileColor: Colors.grey[900],
           leading: Icon(
             Icons.account_circle,
-            color: Colors.white,
+            color: Colors.indigoAccent,
             size: 40,
           ),
           trailing: Icon(
@@ -131,10 +143,11 @@ class Message extends StatelessWidget {
           color: Colors.grey,
         ),
         ListTile(
+          onTap: () {},
           tileColor: Colors.grey[900],
           leading: Icon(
             Icons.account_circle,
-            color: Colors.white,
+            color: Colors.purpleAccent,
             size: 40,
           ),
           title: Text(
@@ -154,10 +167,11 @@ class Message extends StatelessWidget {
           color: Colors.grey,
         ),
         ListTile(
+          onTap: () {},
           tileColor: Colors.grey[900],
           leading: Icon(
             Icons.account_circle,
-            color: Colors.white,
+            color: Colors.amberAccent,
             size: 40,
           ),
           trailing: Icon(
@@ -182,10 +196,11 @@ class Message extends StatelessWidget {
           color: Colors.grey,
         ),
         ListTile(
+          onTap: () {},
           tileColor: Colors.grey[900],
           leading: Icon(
             Icons.account_circle,
-            color: Colors.white,
+            color: Colors.pinkAccent,
             size: 40,
           ),
           title: Text(
@@ -205,10 +220,11 @@ class Message extends StatelessWidget {
           color: Colors.grey,
         ),
         ListTile(
+          onTap: () {},
           tileColor: Colors.grey[900],
           leading: Icon(
             Icons.account_circle,
-            color: Colors.white,
+            color: Colors.tealAccent,
             size: 40,
           ),
           title: Text(
@@ -228,10 +244,11 @@ class Message extends StatelessWidget {
           color: Colors.grey,
         ),
         ListTile(
+          onTap: () {},
           tileColor: Colors.grey[900],
           leading: Icon(
             Icons.account_circle,
-            color: Colors.white,
+            color: Colors.redAccent,
             size: 40,
           ),
           trailing: Icon(
@@ -256,10 +273,11 @@ class Message extends StatelessWidget {
           color: Colors.grey,
         ),
         ListTile(
+          onTap: () {},
           tileColor: Colors.grey[900],
           leading: Icon(
             Icons.account_circle,
-            color: Colors.white,
+            color: Colors.greenAccent,
             size: 40,
           ),
           trailing: Icon(
@@ -284,10 +302,11 @@ class Message extends StatelessWidget {
           color: Colors.grey,
         ),
         ListTile(
+          onTap: () {},
           tileColor: Colors.grey[900],
           leading: Icon(
             Icons.account_circle,
-            color: Colors.white,
+            color: Colors.yellowAccent,
             size: 40,
           ),
           trailing: Icon(
@@ -312,10 +331,11 @@ class Message extends StatelessWidget {
           color: Colors.grey,
         ),
         ListTile(
+          onTap: () {},
           tileColor: Colors.grey[900],
           leading: Icon(
             Icons.account_circle,
-            color: Colors.white,
+            color: Colors.greenAccent,
             size: 40,
           ),
           trailing: Icon(
@@ -340,10 +360,11 @@ class Message extends StatelessWidget {
           color: Colors.grey,
         ),
         ListTile(
+          onTap: () {},
           tileColor: Colors.grey[900],
           leading: Icon(
             Icons.account_circle,
-            color: Colors.white,
+            color: Colors.blueAccent,
             size: 40,
           ),
           trailing: Icon(
@@ -368,10 +389,11 @@ class Message extends StatelessWidget {
           color: Colors.grey,
         ),
         ListTile(
+          onTap: () {},
           tileColor: Colors.grey[900],
           leading: Icon(
             Icons.account_circle,
-            color: Colors.white,
+            color: Colors.blueGrey,
             size: 40,
           ),
           trailing: Icon(
@@ -396,10 +418,11 @@ class Message extends StatelessWidget {
           color: Colors.grey,
         ),
         ListTile(
+          onTap: () {},
           tileColor: Colors.grey[900],
           leading: Icon(
             Icons.account_circle,
-            color: Colors.white,
+            color: Colors.redAccent,
             size: 40,
           ),
           trailing: Icon(
